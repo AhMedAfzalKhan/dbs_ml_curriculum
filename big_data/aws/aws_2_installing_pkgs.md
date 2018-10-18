@@ -25,6 +25,9 @@ ubuntu@ip-172-31-60-68:~$ sudo apt-get update
 Read more about `apt-get` at above link.  
 
 
+## Two ways to do Python package management
+
+### The old-school way:
 ---
 
 #### Install `pip`
@@ -52,70 +55,56 @@ sudo apt-get install git emacs
 
 ---
 
-### Add user
-```console
-ubuntu@ip-172-31-60-68:/home$ sudo adduser julialintern
+### The new school way:
+---
+
+Go to this website [Anaconda](https://www.anaconda.com/download/#linux) and
+find the linux version of anaconda (Python 3.\*). Right click on the button
+for that and copy the link address (it should be a **.sh** file). **.sh** files are
+  called "shell scripts" and tell the terminal a set of instructions to do. We
+  want to go to our new terminal and do (NOTE: Replace with your version of
+  the .sh file).
+
+  `wget https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh`
+
+  That will download the file to our new ubuntu machine. To use it, simply do:
+  
+  `bash Anaconda3-5.1.0-Linux-x86_64.sh`
+
+  This is going to install all of the Anaconda data science stack for python.
+  It's going to ask some questions - tell it that 'yes' I want to install this
+  and also tell it to install in the default location. You don't need the
+  Microsoft Visual coder thing it tries to sell you.
+
+  When that's all done, we need to tell Ubuntu where anaconda lives. To do
+  that, go to your home folder and open up the file called `.bashrc`. This
+  file contains a bunch of rules that run every time we start up our shell. We
+  want to add this line to the file (right at the top is fine).
+
 ```
-**Note:  pick a password (save it in an easy-to-find place !! )**; enter through all the other questions (name fields, etc.)  
-
-### Delete user
-```console
-$ sudo userdel -r olduser
-```
-
-#### User privileges  
-Make yourself special by granting yourself root privileges: type `sudo visudo`. This will open up _nano_ (a text editor) to edit the sudoers file. Find the line that says `root    ALL=(ALL:ALL) ALL`. Give yourself a line beneath that which says `[username] ALL=(ALL:ALL) ALL`.  
-```
-# User privilege specification
-root     ALL=(ALL:ALL) ALL
-julialintern  ALL=(ALL:ALL) ALL
-```
-**Save file in _nano_ editor:  Ctrl-o** then Enter when asked for the file name.    
-**Exit file from _nano_ editor: Ctrl-x**  
-
-----
-
-## Setting up User Account
-
-Now you have a user account, but you can't just log in with a password. Passwords aren't secure enough.  
-Copy your public key (from your local machine) `~/.ssh/id_rsa.pub` to your remote machine to the authorized keys file.  
-(Create the authorized_keys file as follows:)  
-
-**on your remote machine (AWS):**  
-1.  create the directory  
-2.  then copy key from local machine to remote machine  
-```console
-sudo mkdir -p /home/username/.ssh/
-sudo nano /home/username/.ssh/authorized_keys
+export PATH=/home/ubuntu/anaconda3/bin:$PATH
 ```
 
-**My example:**  
-```
-1)  get output from your (local machine) public key file like this:
-julialintern$ pwd
-/Users/julialintern/.ssh
-julialintern$ cat id_rsa.pub
+This says, "hey, when you look for programs like python, please also look at
+what anaconda installed. Also, when I try to import things to Python, please
+look at the python packages that anaconda installed."
 
-2) Copy everything (Command c)
+That's it: you now have Sklearn, pandas, numpy, etc all installed on your
+remote machine. Good on ya'.
 
-3) On your AWS machine:  
-after you run:
-$ sudo nano /home/julialintern/.ssh/authorized_keys
+---
 
-To paste in the current window:  Command v
-then hit  
-ctrl o (to save)  
-enter
-ctrl x (to exit)
-```
+## Some final setup pointers
+
 **on your local machine:**   
-Don't log out until you verify that this has worked! **Open a new shell on your local machine.** You should be able to log in to your remote machine like this:
+**Open a new shell on your local machine.** You should be able to log in to your remote machine like this:
+
 ```console
-$ ssh username@123.234.123.234
+$ ssh -i /path/to/dot_pem_file ubuntu@123.234.123.234
 ```
 **My example:**  
 ```console
-julialintern$ ssh julialintern@54.172.80.95
+zachmiller$ ssh -i ~/.ssh/aws_key.pem ubuntu@54.172.80.95
 ```
 
 ---
@@ -123,22 +112,24 @@ julialintern$ ssh julialintern@54.172.80.95
 Nobody wants to type all that. Edit your `~/.ssh/config` (on your local machine):
 
 ```
-Host my_machine_name
+Host name_i_want_to_call_my_aws_instance
      Hostname 123.234.123.234
      User my_username
+     IdentityFile /path/to/dot_pem_file
 ```
 **My example:**  
 Give your machine the name: `myaws`
 ```
 Host myaws
      HostName 54.172.80.95
-     User julialintern
+     User ubuntu
+     IdentityFile ~/.ssh/aws_key.pem
 ```
 Now you can log in to your remote machine with `ssh myaws`.
 
 **My example:**  
 ```
-julialintern$ ssh myaws
+zachmiller$ ssh myaws
 ```
 
 #### Send a file from your local machine to your remote machine
@@ -147,7 +138,7 @@ scp cool_file.png myaws:~
 ```
 **My Example:**  
 ```
-julialintern$ scp trysql.py myaws:~
+zachmiller$ scp trysql.py myaws:~
 ```
 Note:  check your user account on AWS.  The file was copied there!!! :clap:
 
