@@ -1,5 +1,5 @@
 ---
-date: w8d2
+date: w0d0
 duration: 60
 maintainer: todo
 order: 10

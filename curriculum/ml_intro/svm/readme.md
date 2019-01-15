@@ -1,5 +1,5 @@
 ---
-date: w6d2
+date: w7d2
 duration: 90
 maintainer: artificialsoph
 order: 10

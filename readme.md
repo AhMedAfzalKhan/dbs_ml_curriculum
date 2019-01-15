@@ -196,22 +196,17 @@
   <td>
   </td>
   <td>
-   Instruction Time: 250m
+   Instruction Time: 135m
    <br/>
    <a href="/curriculum/ml_intro/classification-and-regression-trees">
     • Classification And Regression Trees
    </a>
    (60m)
    <br/>
-   <a href="/curriculum/ml_intro/neural-net-intro">
-    • Neural Net Intro
+   <a href="/curriculum/ml_intro/ensembling">
+    • Ensembling
    </a>
-   (100m)
-   <br/>
-   <a href="/curriculum/ml_intro/svm">
-    • SVM
-   </a>
-   (90m)
+   (75m)
    <br/>
   </td>
   <td>
@@ -230,32 +225,17 @@
   <td>
   </td>
   <td>
-   Instruction Time: 210m
-   <br/>
-   <a href="/curriculum/ml_intro/clustering-kmeans-intro">
-    • Clustering K-means Intro
-   </a>
-   (40m)
-   <br/>
-   <a href="/curriculum/ml_intro/clustering-kmeans-lab">
-    • Clustering K-Means Lab
-   </a>
-   (45m)
-   <br/>
-   <a href="/curriculum/ml_intro/curse-of-dimensionality">
-    • Curse Of Dimensionality
-   </a>
-   (30m)
-   <br/>
-   <a href="/curriculum/ml_intro/ensembling">
-    • Ensembling
-   </a>
-   (75m)
+   Instruction Time: 110m
    <br/>
    <a href="/curriculum/ml_intro/model-complexity">
     • Model Complexity
    </a>
    (20m)
+   <br/>
+   <a href="/curriculum/ml_intro/svm">
+    • SVM
+   </a>
+   (90m)
    <br/>
   </td>
   <td>
@@ -274,17 +254,17 @@
   <td>
   </td>
   <td>
-   Instruction Time: 120m
+   Instruction Time: 85m
    <br/>
-   <a href="/curriculum/ml_intro/recommendation-systems">
-    • Recommendation Systems
+   <a href="/curriculum/ml_intro/clustering-kmeans-intro">
+    • Clustering K-means Intro
    </a>
-   (60m)
+   (40m)
    <br/>
-   <a href="/curriculum/ml_intro/svd-pca">
-    • SVD &amp; PCA
+   <a href="/curriculum/ml_intro/clustering-kmeans-lab">
+    • Clustering K-Means Lab
    </a>
-   (60m)
+   (45m)
    <br/>
   </td>
   <td>
@@ -303,12 +283,17 @@
   <td>
   </td>
   <td>
-   Instruction Time: 10m
+   Instruction Time: 110m
    <br/>
    <a href="/curriculum/ml_intro/big-data-prep">
     • Big Data Prep
    </a>
    (10m)
+   <br/>
+   <a href="/curriculum/ml_intro/neural-net-intro">
+    • Neural Net Intro
+   </a>
+   (100m)
    <br/>
   </td>
   <td>
@@ -327,17 +312,17 @@
   <td>
   </td>
   <td>
-   Instruction Time: 165m
+   Instruction Time: 120m
    <br/>
    <a href="/curriculum/ml_intro/big-data-overview">
     • Big Data Overview
    </a>
    (60m)
    <br/>
-   <a href="/curriculum/ml_intro/hadoop-hive">
-    • Hadoop Hive
+   <a href="/curriculum/ml_intro/recommendation-systems">
+    • Recommendation Systems
    </a>
-   (105m)
+   (60m)
    <br/>
   </td>
   <td>
@@ -356,7 +341,12 @@
   <td>
   </td>
   <td>
-   Instruction Time: 60m
+   Instruction Time: 165m
+   <br/>
+   <a href="/curriculum/ml_intro/hadoop-hive">
+    • Hadoop Hive
+   </a>
+   (105m)
    <br/>
    <a href="/curriculum/ml_intro/spark-intro">
     • Spark Intro
