@@ -1,5 +1,5 @@
 ---
-date: w04d05
+date: w6d2
 duration: 90
 maintainer: artificialsoph
 order: 10
@@ -36,9 +36,9 @@ Students can
 
 This is a RISE notebook. To use it, install RISE according to the instructions [here](https://github.com/damianavila/RISE#installation) and then add the Metis styling according to the instructions [here](https://github.com/thisismetis/dscurriculum_gamma#custom-notebook-styling)
 
-This lecture series is broken up into three parts: 
-1. Model Linearity (previous) has been broken into a separate smaller lecture and covers the concepts of linear functions and models. 
-2. The main SVM lesson discusses the theory behind SVMs and how they are used. 
+This lecture series is broken up into three parts:
+1. Model Linearity (previous) has been broken into a separate smaller lecture and covers the concepts of linear functions and models.
+2. The main SVM lesson discusses the theory behind SVMs and how they are used.
 3. The final big SVM lesson focuses on modern approaches to using SVMs on bigger data.
 
 # Additional Resources

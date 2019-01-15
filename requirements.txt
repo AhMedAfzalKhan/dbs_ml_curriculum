@@ -1,0 +1,7 @@
+nose
+gitpython
+pandas
+matplotlib
+scikit-learn
+statsmodels
+seaborn

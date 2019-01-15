@@ -1,5 +1,5 @@
 ---
-date: w7d5
+date: w7d2
 duration: 40
 maintainer: robert
 order: 10

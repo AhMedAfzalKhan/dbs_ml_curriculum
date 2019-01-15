@@ -1,5 +1,5 @@
 ---
-date: w4d5
+date: w6d2
 duration: 60
 maintainer: Damien
 order: 10

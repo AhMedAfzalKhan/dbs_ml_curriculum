@@ -1,5 +1,5 @@
 ---
-date: w2d5
+date: w2d2
 duration: 90
 maintainer: ultimatist
 order: 2

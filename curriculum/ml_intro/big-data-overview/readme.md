@@ -1,5 +1,5 @@
 ---
-date: w10d5
+date: w10d2
 duration: 60
 maintainer: zwmiller
 order: 10
