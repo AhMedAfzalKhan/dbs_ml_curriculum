@@ -3,3 +3,6 @@
 
 ~$**
 schedule
+
+# python
+__pycache__
