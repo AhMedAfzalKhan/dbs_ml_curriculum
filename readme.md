@@ -1,4 +1,7 @@
 
+# Greetings
+
+Hello class!
 
 # Daily Schedule
 
