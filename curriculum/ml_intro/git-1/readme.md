@@ -1,5 +1,5 @@
 ---
-date: w01d02
+date: w0d0
 duration: 60
 maintainer: zwmiller
 order: 3

@@ -32,12 +32,5 @@ By the end of this lecture, the students should know:
 * Data Types
 * Mutability
 
-# Instructor Notes
-
-## Structure of the day
-1. **EDA Presentation:** The presentation deck emphasizes the importance of data cleaning before going into modeling, and talks about how a lot of a data scientist's job is spent on this step.
-2. **Pandas Basics Notebook:** The pandas  notebook is for the instructor to walk through to review the pandas basics with students. It is mostly a cookbook the students can use for reference. There are comprehension questions sprinkled throughout.
-3. **Pandas Exercise Parts 1 to 4:** The students should split into pairs / threes for problems 1-4 of the pandas exercise. It mostly focuses on groupbys, which will be challenging for most students. You can start revealing the answers as students work through the problems.
-4. **Pandas Exercise Part 5 (Optional):** Part 5 of the pandas exercise is a more difficult problem that uses a merge along with a groupby and sort to solve the problem. It's good to walk through with the students to show them the power of pandas. This likely will not fit in the morning and would need to spill over to the afternoon.
 
 # Additional Resources

@@ -31,7 +31,7 @@
   <td>
   </td>
   <td>
-   Instruction Time: 295m
+   Instruction Time: 205m
    <br/>
    <a href="/curriculum/ml_intro/machine-learning-intro">
     • Machine Learning Intro
@@ -43,18 +43,8 @@
    </a>
    (90m)
    <br/>
-   <a href="/curriculum/ml_intro/git-1">
-    • Git Intro
-   </a>
-   (60m)
-   <br/>
-   <a href="/curriculum/ml_intro/git-2">
-    • Git Branches
-   </a>
-   (30m)
-   <br/>
    <a href="/curriculum/ml_intro/python-review">
-    • Python Review
+    • Optional: Python Review
    </a>
    (75m)
    <br/>

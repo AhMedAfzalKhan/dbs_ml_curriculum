@@ -3,7 +3,7 @@ date: w1d2
 duration: 75
 maintainer: zwmiller
 order: 6
-title: Python Review
+title: "Optional: Python Review"
 ---
 
 # Sample Lesson
@@ -29,25 +29,6 @@ After the Importing with Python section, the students should know how to:
 * Use `from x import y`
 * Understand the basics of namespaces
 
-# Depends On
 
-None
-
-# Instructor Notes
-
-## Python Review and Best Practices
-
-The goal of this notebook is to walk students through all of the common data
-types in Python, as well as a few "extra" ones - then to spend time talking
-about best practices such as using truthiness, list comprehensions,
-generators, etc. All of the notebook is notated throughout to act as a
-reference for students. There are several points with questions to ask the students
-before running a cell. There are also 2 exercises embedded in the lecture.
-
-## Importing with Python
-
-This notebook demonstrates some of the subtle aspects of importing modules in
-Python and demonstrates how to use your own modules. This is meant to act as
-a reference and is heavily annotated.
 
 # Additional Resources
