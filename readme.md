@@ -1,4 +1,6 @@
+# DBS Intro to Machine Learning
 
+Class slack: https://dbs-ml.slack.com
 
 # Daily Schedule
 
@@ -31,7 +33,12 @@
   <td>
   </td>
   <td>
-   Instruction Time: 205m
+   Instruction Time: 215m
+   <br/>
+   <a href="/curriculum/ml_intro/day_1">
+    • Day 1 introduction
+   </a>
+   (10m)
    <br/>
    <a href="/curriculum/ml_intro/machine-learning-intro">
     • Machine Learning Intro
@@ -381,5 +388,3 @@
   </td>
  </tr>
 </table>
-
-
