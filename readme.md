@@ -1,5 +1,7 @@
 # DBS Intro to Machine Learning
 
+Hello class!
+
 Class slack: https://dbs-ml.slack.com
 
 # Daily Schedule
