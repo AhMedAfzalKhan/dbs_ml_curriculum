@@ -9,8 +9,8 @@ title: Pandas Intro
 # Sample Lesson
 
 * (30m) [EDA Presentation](Exploratory_Data_Analysis.key)
-* (60m) [Pandas Basics Notebook](Intro-to-Pandas.ipynb) [colab link](https://colab.research.google.com/github/thisismetis/dbs_ml_curriculum/blob/master/curriculum/ml_intro/Intro-to-Pandas.ipynb)
-* (30m + 15m Optional) [Pandas Exercise](pandas-exercise.ipynb) [colab link](https://colab.research.google.com/github/thisismetis/dbs_ml_curriculum/blob/master/curriculum/ml_intro/pandas-exercise.ipynb)
+* (60m) [Pandas Basics Notebook](Intro-to-Pandas.ipynb) ([colab link](https://colab.research.google.com/github/thisismetis/dbs_ml_curriculum/blob/master/curriculum/ml_intro/pandas-intro/Intro-to-Pandas.ipynb))
+* (30m + 15m Optional) [Pandas Exercise](pandas-exercise.ipynb) ([colab link](https://colab.research.google.com/github/thisismetis/dbs_ml_curriculum/blob/master/curriculum/ml_intro/pandas-intro/pandas-exercise.ipynb))
 
 # Learning Objectives
 
