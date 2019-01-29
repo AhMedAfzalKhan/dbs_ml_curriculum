@@ -49,12 +49,6 @@ Class slack: https://dbs-ml.slack.com
    (75m)
    <br/>
   </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
  </tr>
  <tr>
   <th>
@@ -79,12 +73,6 @@ Class slack: https://dbs-ml.slack.com
    </a>
    (90m)
    <br/>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
   </td>
  </tr>
  <tr>
@@ -114,12 +102,6 @@ Class slack: https://dbs-ml.slack.com
    (60m)
    <br/>
   </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
  </tr>
  <tr>
   <th>
@@ -142,12 +124,6 @@ Class slack: https://dbs-ml.slack.com
    </a>
    (150m)
    <br/>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
   </td>
  </tr>
  <tr>
@@ -172,12 +148,6 @@ Class slack: https://dbs-ml.slack.com
    (60m)
    <br/>
   </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
  </tr>
  <tr>
   <th>
@@ -200,12 +170,6 @@ Class slack: https://dbs-ml.slack.com
    </a>
    (75m)
    <br/>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
   </td>
  </tr>
  <tr>
@@ -230,12 +194,6 @@ Class slack: https://dbs-ml.slack.com
    (90m)
    <br/>
   </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
  </tr>
  <tr>
   <th>
@@ -259,13 +217,6 @@ Class slack: https://dbs-ml.slack.com
    (45m)
    <br/>
   </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
- </tr>
  <tr>
   <th>
    <a href="/schedule/week-09">
@@ -287,12 +238,6 @@ Class slack: https://dbs-ml.slack.com
    </a>
    (100m)
    <br/>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
   </td>
  </tr>
  <tr>
@@ -317,12 +262,6 @@ Class slack: https://dbs-ml.slack.com
    (60m)
    <br/>
   </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
  </tr>
  <tr>
   <th>
@@ -345,12 +284,6 @@ Class slack: https://dbs-ml.slack.com
    </a>
    (60m)
    <br/>
-  </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
   </td>
  </tr>
  <tr>
@@ -375,11 +308,6 @@ Class slack: https://dbs-ml.slack.com
    (200m)
    <br/>
   </td>
-  <td>
-  </td>
-  <td>
-  </td>
-  <td>
   </td>
  </tr>
 </table>
