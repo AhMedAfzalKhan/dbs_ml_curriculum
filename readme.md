@@ -11,19 +11,10 @@ Class slack: https://dbs-ml.slack.com
   <th>
   </th>
   <th>
-   Monday
+   Lecture
   </th>
   <th>
-   Tuesday
-  </th>
-  <th>
-   Wednesday
-  </th>
-  <th>
-   Thursday
-  </th>
-  <th>
-   Friday
+   Lab
   </th>
  </tr>
  <tr>
