@@ -72,19 +72,21 @@ Class slack: https://dbs-ml.slack.com
    </a>
   </th>
   <td>
-  </td>
-  <td>
-   Instruction Time: 150m
-   <br/>
-   <a href="/curriculum/ml_intro/linear-regression-code-intro">
-    • Linear Regression Code Intro
-   </a>
-   (90m)
+   Instruction Time: 60m
    <br/>
    <a href="/curriculum/ml_intro/linear-regression-theory-intro">
     • Linear Regression Theory Intro
    </a>
    (60m)
+   <br/>
+  </td>
+  <td>
+   Instruction Time: 90m
+   <br/>
+   <a href="/curriculum/ml_intro/linear-regression-code-intro">
+    • Linear Regression Code Intro
+   </a>
+   (90m)
    <br/>
   </td>
   <td>
@@ -390,3 +392,5 @@ Class slack: https://dbs-ml.slack.com
   </td>
  </tr>
 </table>
+
+
