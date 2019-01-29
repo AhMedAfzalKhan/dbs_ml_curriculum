@@ -1,8 +1,8 @@
 ---
-date: w02d01
+date: w2d2
 duration: 60
 maintainer: ultimatist
-order: 2
+order: 1
 title: Linear Regression Theory Intro
 ---
 

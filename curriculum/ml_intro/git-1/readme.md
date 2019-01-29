@@ -3,7 +3,7 @@ date: w0d0
 duration: 60
 maintainer: zwmiller
 order: 3
-title: Git Intro
+title: "Optional: Git Intro"
 ---
 
 # Sample Lesson Plan
